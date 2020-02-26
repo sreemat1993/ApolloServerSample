@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Queries Get the lists of books 1`] = `
+Object {
+  "data": Object {
+    "books": Array [
+      Object {
+        "author": "J.K. Rowling",
+        "title": "Harry Potter and the Chamber of Secrets",
+      },
+      Object {
+        "author": "Michael Crichton",
+        "title": "Jurassic Park",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
